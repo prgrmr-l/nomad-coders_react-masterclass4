@@ -1,4 +1,6 @@
+import React from "react";
 import styled from "styled-components";
+import { motion } from "framer-motion";
 
 const Wrapper = styled.div`
   height: 100vh;
@@ -20,6 +22,7 @@ function App() {
   return (
     <Wrapper>
       <Box />
+      <motion.div></motion.div>
     </Wrapper>
   );
 }
